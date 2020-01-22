@@ -12,8 +12,6 @@
     - "~/.config/fish/"
 
 - link:
-    # ~/.dotfiles: ""
-
     # Fish shell config files
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/fish/fishfile: fish/fishfile
@@ -29,9 +27,9 @@
       glob: true
 
     # Oh-my-Fish configs
-    ~/.config/omf/bundle: omf/bundle
-    ~/.config/omf/channel: omf/channel
-    ~/.config/omf/theme: omf/theme
+    ~/.config/omf/bundle: fish/omf/bundle
+    ~/.config/omf/channel: fish/omf/channel
+    ~/.config/omf/theme: fish/omf/theme
 
     # Manjaro configs
     ~/.config/manjaro/manjaro-settings-manager-Notifier.conf: manjaro/manjaro-settings-manager-Notifier.conf
@@ -46,29 +44,18 @@
     # Git config files
     ~/.gitconfig: git/gitconfig
 
-    # GPG files
-    ~/.gnupg/gpg.conf: gpg/gpg.conf
-    ~/.gnupg/gpg-agent.conf:
-      path: gpg/gpg-agent.conf
-      if: "uname -s | grep --quiet --ignore-case darwin"
+    # GPG files - when it's set up
+    # ~/.gnupg/gpg.conf: gpg/gpg.conf
 
     # SSH files
     ~/.ssh/config: ssh/config
-    ~/.ssh/config.d:
-      path: ssh/config.d/*
-      glob: true
+    # ~/.ssh/config.d:
+    #   path: ssh/config.d/*
+    #   glob: true
 
     # Misc
     ~/.dir_colors: dir_colors
     ~/.profile: profile
-    ~/.bash_profile: bash_profile
-    ~/.bashrc: bashrc
-    ~/.bash_logout: bash_logout
 # - shell:
 #     - command: ./scripts/post.sh
 #       stderr: true
-- clean: ['~']
-
-- link:
-
-
