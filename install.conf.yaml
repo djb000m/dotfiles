@@ -6,46 +6,75 @@
       force: true
       relink: true
 
-- create:
-    - "~/.cache/pip"
-    - "~/.config"
-    - "~/.config/fish/"
+# - create:
+#     - "~/.cache/pip"
+#     - "~/.config"
+#     - "~/.config/fish/"
 
 - link:
     # Fish shell config files
-    ~/.config/fish/config.fish: fish/config.fish
-    ~/.config/fish/fishfile: fish/fishfile
-    ~/.config/fish/fish_variables: fish/fish_variables
-    ~/.config/fish/conf.d:
-      path: fish/conf.d/*.fish
+    ~/.config/fish/:
+      path: fish/*
       glob: true
-    ~/.config/fish/functions:
-      path: fish/functions/*.fish
-      glob: true
-    ~/.config/fish/completions:
-      path: fish/completions/*.fish
-      glob: true
+    # ~/.config/fish/config.fish: fish/config.fish
+    # ~/.config/fish/fish_variables: fish/fish_variables
+    # ~/.config/fish/conf.d:
+    #   path: fish/conf.d/*.fish
+    #   glob: true
+    # ~/.config/fish/functions:
+    #   path: fish/functions/*.fish
+    #   glob: true
+    # ~/.config/fish/completions:
+    #   path: fish/completions/*.fish
+    #   glob: true
 
     # Oh-my-Fish configs
-    ~/.config/omf/bundle: fish/omf/bundle
-    ~/.config/omf/channel: fish/omf/channel
-    ~/.config/omf/theme: fish/omf/theme
+    ~/.config/omf/:
+      path: omf/*
+      glob: true
+    # ~/.config/omf/bundle: fish/omf/bundle
+    # ~/.config/omf/channel: fish/omf/channel
+    # ~/.config/omf/theme: fish/omf/theme
 
     # Manjaro configs
-    ~/.config/manjaro/manjaro-settings-manager-Notifier.conf: manjaro/manjaro-settings-manager-Notifier.conf
-    ~/.config/manjaro/manjaro-settings-manager.conf: manjaro/manjaro-settings-manager.conf
+    ~/.config/manjaro/:
+      path: manjaro/*
+      glob: true
+    # ~/.config/manjaro/manjaro-settings-manager-Notifier.conf: manjaro/manjaro-settings-manager-Notifier.conf
+    # ~/.config/manjaro/manjaro-settings-manager.conf: manjaro/manjaro-settings-manager.conf
 
     # KDE Plasma configs
-    ~/.config/menus/applications-kmenuedit.menu: menus/applications-kmenuedit.menu
-    ~/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu: menus/applications-merged/xdg-desktop-menu-dummy.menu
+    ~/.config/menus/:
+      path: menus/*
+      glob: true
+    ~/.config/plasma-workspace/:
+      path: kde/plasma/plasma-workspace/*
+      glob: true
+    ~/.config/plasma-nm: kde/plasma/plasma-nm
+    ~/.config/plasma-org.kde.plasma.desktop-appletsrc: kde/plasma/plasma-org.kde.plasma.desktop-appletsrc
+    ~/.config/plasmanotifyrc: kde/plasma/plasmanotifyrc
+    ~/.config/plasmarc: kde/plasma/plasmarc
+    ~/.config/plasmashellrc: kde/plasma/plasmashellrc
+    ~/.config/kwinrc: kde/kwinrc
+    ~/.config/ksplashrc: kde/ksplashrc
+    ~/.config/kservicemenurc: kde/kservicemenurc
+    ~/.config/kscreenlockerrc: kde/kscreenlockerrc
+    ~/.config/kglobalshortcutsrc: kde/kglobalshortcutsrc
+    ~/.config/kdeglobals: kde/kdeglobals
+    ~/.config/kcminputrc: kde/kcminputrc
+    # ~/.config/menus/applications-kmenuedit.menu: menus/applications-kmenuedit.menu
+    # ~/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu: menus/applications-merged/xdg-desktop-menu-dummy.menu
 
-    # ~/.config/qt5ct/qt5ct.conf: qt5ct/qt5ct.conf
+    # Wallpapers and other graphics
+    ~/Pictures/rainbow-nebula.jpg: wallpapers/rainbow-nebula.jpg
 
     # Git config files
     ~/.gitconfig: git/gitconfig
 
-    # GPG files - when it's set up
-    # ~/.gnupg/gpg.conf: gpg/gpg.conf
+    # GPG files
+    ~/.gnupg/:
+      path: gpg/*
+      glob: true
 
     # SSH files
     ~/.ssh/config: ssh/config
@@ -54,8 +83,12 @@
     #   glob: true
 
     # Misc
-    ~/.dir_colors: dir_colors
-    ~/.profile: profile
+    ~/.config/qt5ct/:
+      path: qt5ct/*
+      glob: true
+    ~/.profile: misc/profile
+    ~/.xinitrc: misc/xinitrc
+    ~/.config/mimeapps.list: misc/mimeapps.list
 # - shell:
 #     - command: ./scripts/post.sh
 #       stderr: true
