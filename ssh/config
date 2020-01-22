@@ -1,0 +1,119 @@
+Host dc-centos-1
+    User dave
+    Hostname 192.168.1.131
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host dc-centos-2
+    User dave
+    Hostname 192.168.1.132
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host dc-centos-3
+    User dave
+    Hostname 192.168.1.133
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host dc-centos-4
+    User dave
+    Hostname 192.168.1.134
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host prime
+    User admin
+    Hostname 192.168.1.200
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host megatron
+    User admin
+    Hostname 192.168.1.201
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host grimlock
+    User admin
+    Hostname 192.168.1.202
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host bumblebee
+    User admin
+    Hostname 192.168.1.203
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host ironhide
+    User admin
+    Hostname 192.168.1.204
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host jazz
+    User admin
+    Hostname 192.168.1.205
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host wheeljack
+    User admin
+    Hostname 192.168.1.206
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host prowl
+    User admin
+    Hostname 192.168.1.207
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host starscream
+    User admin
+    Hostname 192.168.1.208
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host dirge
+    User admin
+    Hostname 192.168.1.209
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
+
+Host ramjet
+    User admin
+    Hostname 192.168.1.210
+    Port 22
+    IdentityFile ~/.ssh/dave-key-rsa
+    ServerAliveInterval 120
+    ServerAliveCountMax 30
