@@ -70,7 +70,7 @@
 
     # Konsole
     ~/.local/share/konsole/:
-      path: konsole/*
+      path: kde/konsole/*
       glob: true
 
     # Wallpapers and other graphics
