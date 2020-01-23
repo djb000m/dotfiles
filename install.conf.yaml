@@ -62,8 +62,16 @@
     ~/.config/kglobalshortcutsrc: kde/kglobalshortcutsrc
     ~/.config/kdeglobals: kde/kdeglobals
     ~/.config/kcminputrc: kde/kcminputrc
-    # ~/.config/menus/applications-kmenuedit.menu: menus/applications-kmenuedit.menu
-    # ~/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu: menus/applications-merged/xdg-desktop-menu-dummy.menu
+    ~/.config/konsolerc: kde/konsolerc
+
+    ~/.local/share/plasma:
+      path: kde/plasma-theming/*
+      glob: true
+
+    # Konsole
+    ~/.local/share/konsole/:
+      path: konsole/*
+      glob: true
 
     # Wallpapers and other graphics
     ~/Pictures/rainbow-nebula.jpg: wallpapers/rainbow-nebula.jpg
