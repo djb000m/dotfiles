@@ -1,0 +1,34 @@
+[KFileDialog Settings]
+Recent Files[$e]=imageonline-co-whitebackgroundremoved.png,file:$HOME/Pictures/android-rain.jpg,file:$HOME/Pictures/cybertron.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 1080=434
+Width 1920=394
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_org.kde.kwrite.desktop,1 baloosearch_/home/dave/python/morepath/my_package/env/lib/python3.7/site-packages/black-19.3b0.dist-info/METADATA,1 services_org.kde.konsole.desktop,3 services_kcm_fonts.desktop,10 services_org.gnome.Epiphany.desktop,1 services_kcm_lookandfeel.desktop,1 services_com.gexperts.Tilix.desktop,1 services_kitty.desktop,1 services_balena-etcher-electron.desktop,2 services_epiphany-cybertron.desktop,14 services_org.kde.kcalc.desktop,10 services_kwinscripts.desktop,1 shell_mail,1 services_kwinscreenedges.desktop,1 shell_etcher,2 services_kwinadvanced.desktop,2 services_fontinst.desktop,2 services_systemsettings.desktop,1 services_manjaro-settings-manager.desktop,4 services_google-chrome.desktop,3 services_about-distro.desktop,1 services_org.kde.ksysguard.desktop,10 services_firefox.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 19][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 19][Horizontal1920]
+thickness=32
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=32
+
+[ScreenConnectors]
+0=DP-3
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

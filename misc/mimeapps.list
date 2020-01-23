@@ -1,0 +1,16 @@
+[Added Associations]
+application/json=visual-studio-code.desktop;
+application/pdf=org.kde.okular.desktop;org.gnome.Evince.desktop;libreoffice-draw.desktop;
+application/x-alpm-package=org.gnome.FileRoller.desktop;
+application/x-yaml=visual-studio-code.desktop;
+image/jpeg=org.gnome.gThumb.desktop;gimp.desktop;
+image/png=org.gnome.gThumb.desktop;
+text/plain=visual-studio-code.desktop;org.gnome.gedit.desktop;
+
+[Default Applications]
+application/pdf=org.kde.okular.desktop;
+text/html=vivaldi-stable.desktop
+x-scheme-handler/about=vivaldi-stable.desktop
+x-scheme-handler/http=vivaldi-stable.desktop;
+x-scheme-handler/https=vivaldi-stable.desktop;
+x-scheme-handler/unknown=vivaldi-stable.desktop

@@ -1,0 +1,14 @@
+[OSD]
+Enabled=true
+
+[PlasmaToolTips]
+Delay=0.7
+
+[Theme]
+name=Arc-Dark
+
+[Theme-plasmathemeexplorer]
+name=Arc-Dark
+
+[Wallpapers]
+usersWallpapers=/home/dave/Pictures/rainbow-nebula.jpg
