@@ -11,8 +11,11 @@ Id_3=523a3bc7-2792-40c9-8380-5f5d1a2471c7
 Id_4=13ea3222-679c-44e4-a0a9-b7d207a90025
 Id_5=3899a1bd-ca65-470b-9ead-c0eebf16fd3e
 Id_6=7222e899-ca24-4f6c-96cc-0e1c0e3bb843
-Number=6
-Rows=4
+Id_7=182d9d6f-2da6-4352-a295-a1fc23d05942
+Id_8=065b9cb1-5adc-4aed-9e43-e08ddfe0db3c
+Id_9=0e83cd34-b006-46ba-9f15-a6aa88696dd9
+Number=9
+Rows=3
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -111,6 +114,10 @@ screenGapSizeTop=10
 windowsGapSizeHeight=5
 windowsGapSizeWidth=5
 
+[SubSession: 73d3702d-5110-45d3-b9f5-0a9bbb88d8b5]
+active=-1
+count=0
+
 [TabBox]
 ActivitiesMode=1
 ApplicationsMode=0
@@ -170,7 +177,7 @@ MaximizeButtonMiddleClickCommand=Maximize (vertical only)
 MaximizeButtonRightClickCommand=Maximize (horizontal only)
 NextFocusPrefersMouse=true
 Placement=Centered
-RollOverDesktops=true
+RollOverDesktops=false
 SeparateScreenFocus=false
 ShadeHover=false
 ShadeHoverInterval=250

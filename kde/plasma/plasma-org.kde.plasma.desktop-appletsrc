@@ -47,7 +47,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][18][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][18][Configuration][ConfigDialog]
 DialogHeight=480
@@ -69,7 +69,7 @@ DialogWidth=640
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=filename-dot-amarok
+icon=manjaro-welcome
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
@@ -93,7 +93,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=68
+PreloadWeight=52
 SystrayContainmentId=7
 
 [Containments][2][Applets][8]
@@ -101,7 +101,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][8][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][2][Applets][8][Configuration][Appearance]
 use24hFormat=2
@@ -120,25 +120,6 @@ PreloadWeight=0
 [Containments][2][General]
 AppletOrder=3;4;18;6;8
 
-[Containments][23]
-activityId=73d3702d-5110-45d3-b9f5-0a9bbb88d8b5
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][23][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
-
-[Containments][23][Configuration]
-PreloadWeight=2
-
-[Containments][23][Wallpaper][org.kde.image][General]
-Image=file:///home/dave/Pictures/android-rain.jpg
-
 [Containments][7]
 activityId=
 formfactor=2
@@ -153,21 +134,21 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=68
+PreloadWeight=52
 
 [Containments][7][Applets][11]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][11][Configuration]
-PreloadWeight=24
+PreloadWeight=8
 
 [Containments][7][Applets][12]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][12][Configuration]
-PreloadWeight=68
+PreloadWeight=52
 
 [Containments][7][Applets][13]
 immutability=1
@@ -181,14 +162,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][7][Applets][14][Configuration]
-PreloadWeight=62
+PreloadWeight=46
 
 [Containments][7][Applets][15]
 immutability=1
 plugin=org.kde.plasma.vault
 
 [Containments][7][Applets][15][Configuration]
-PreloadWeight=9
+PreloadWeight=0
 
 [Containments][7][Applets][16]
 immutability=1
@@ -202,7 +183,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][Applets][17][Configuration]
-PreloadWeight=68
+PreloadWeight=52
 
 [Containments][7][Applets][18]
 immutability=1
