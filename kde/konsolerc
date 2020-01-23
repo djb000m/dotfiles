@@ -14,10 +14,10 @@ RemoveWindowTitleBarAndFrame=true
 [MainWindow]
 Height 1080=1028
 Height 1920=1048
-State=AAAA/wAAAAD9AAAAAAAAA7EAAAPoAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA2cAAAPoAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1080=1080
-Width 1920=945
+Width 1920=871
 
 [Notification Messages]
 CloseAllTabs=true

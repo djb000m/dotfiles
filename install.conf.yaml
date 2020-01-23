@@ -7,8 +7,6 @@
       relink: true
 
 # - create:
-#     - "~/.cache/pip"
-#     - "~/.config"
 #     - "~/.config/fish/"
 
 - link:
@@ -16,32 +14,16 @@
     ~/.config/fish/:
       path: fish/*
       glob: true
-    # ~/.config/fish/config.fish: fish/config.fish
-    # ~/.config/fish/fish_variables: fish/fish_variables
-    # ~/.config/fish/conf.d:
-    #   path: fish/conf.d/*.fish
-    #   glob: true
-    # ~/.config/fish/functions:
-    #   path: fish/functions/*.fish
-    #   glob: true
-    # ~/.config/fish/completions:
-    #   path: fish/completions/*.fish
-    #   glob: true
 
     # Oh-my-Fish configs
     ~/.config/omf/:
       path: omf/*
       glob: true
-    # ~/.config/omf/bundle: fish/omf/bundle
-    # ~/.config/omf/channel: fish/omf/channel
-    # ~/.config/omf/theme: fish/omf/theme
 
     # Manjaro configs
     ~/.config/manjaro/:
       path: manjaro/*
       glob: true
-    # ~/.config/manjaro/manjaro-settings-manager-Notifier.conf: manjaro/manjaro-settings-manager-Notifier.conf
-    # ~/.config/manjaro/manjaro-settings-manager.conf: manjaro/manjaro-settings-manager.conf
 
     # KDE Plasma configs
     ~/.config/menus/:
@@ -86,9 +68,6 @@
 
     # SSH files
     ~/.ssh/config: ssh/config
-    # ~/.ssh/config.d:
-    #   path: ssh/config.d/*
-    #   glob: true
 
     # Misc
     ~/.config/qt5ct/:
@@ -100,3 +79,14 @@
 # - shell:
 #     - command: ./scripts/post.sh
 #       stderr: true
+
+# Apps to be installed on fresh system:
+
+# fish shell
+# bash-pipes
+# gotop
+# vs.code
+# vivaldi
+# bitwarden
+# neofetch
+# nerd fonts hack | powerline patched hack (not sure if fish works with nerd)
