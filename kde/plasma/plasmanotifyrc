@@ -1,9 +1,0 @@
-[Applications][balena-etcher-electron]
-Seen=true
-
-[Applications][vivaldi-stable]
-Seen=true
-
-[Notifications]
-PopupPosition=BottomRight
-PopupTimeout=3000

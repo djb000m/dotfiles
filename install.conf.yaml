@@ -10,49 +10,55 @@
 #     - "~/.config/fish/"
 
 - link:
-    # Fish shell config files
-    ~/.config/fish/:
-      path: fish/*
+    # User Config Files
+    ~/.config/:
+      path: config/*
       glob: true
 
-    # Oh-my-Fish configs
-    ~/.config/omf/:
-      path: omf/*
-      glob: true
+    # # Fish shell config files
+    # ~/.config/fish/:
+    #   path: fish/*
+    #   glob: true
 
-    # Manjaro configs
-    ~/.config/manjaro/:
-      path: manjaro/*
-      glob: true
+    # # Oh-my-Fish configs
+    # ~/.config/omf/:
+    #   path: omf/*
+    #   glob: true
 
-    # KDE Plasma configs
-    ~/.config/menus/:
-      path: menus/*
-      glob: true
-    ~/.config/plasma-workspace/:
-      path: kde/plasma/plasma-workspace/*
-      glob: true
-    ~/.config/plasma-nm: kde/plasma/plasma-nm
-    ~/.config/plasma-org.kde.plasma.desktop-appletsrc: kde/plasma/plasma-org.kde.plasma.desktop-appletsrc
-    ~/.config/plasmanotifyrc: kde/plasma/plasmanotifyrc
-    ~/.config/plasmarc: kde/plasma/plasmarc
-    ~/.config/plasmashellrc: kde/plasma/plasmashellrc
-    ~/.config/kwinrc: kde/kwinrc
-    ~/.config/ksplashrc: kde/ksplashrc
-    ~/.config/kservicemenurc: kde/kservicemenurc
-    ~/.config/kscreenlockerrc: kde/kscreenlockerrc
-    ~/.config/kglobalshortcutsrc: kde/kglobalshortcutsrc
-    ~/.config/kdeglobals: kde/kdeglobals
-    ~/.config/kcminputrc: kde/kcminputrc
-    ~/.config/konsolerc: kde/konsolerc
+    # # Manjaro configs
+    # ~/.config/manjaro/:
+    #   path: manjaro/*
+    #   glob: true
+
+    # # KDE Plasma configs
+    # ~/.config/menus/:
+    #   path: menus/*
+    #   glob: true
+    # ~/.config/plasma-workspace/:
+    #   path: kde/plasma/plasma-workspace/*
+    #   glob: true
+    # ~/.config/plasma-nm: kde/plasma/plasma-nm
+    # ~/.config/plasma-org.kde.plasma.desktop-appletsrc: kde/plasma/plasma-org.kde.plasma.desktop-appletsrc
+    # ~/.config/plasmanotifyrc: kde/plasma/plasmanotifyrc
+    # ~/.config/plasmarc: kde/plasma/plasmarc
+    # ~/.config/plasmashellrc: kde/plasma/plasmashellrc
+    # ~/.config/kwinrc: kde/kwinrc
+    # ~/.config/ksplashrc: kde/ksplashrc
+    # ~/.config/kservicemenurc: kde/kservicemenurc
+    # ~/.config/kscreenlockerrc: kde/kscreenlockerrc
+    # ~/.config/kglobalshortcutsrc: kde/kglobalshortcutsrc
+    # ~/.config/kdeglobals: kde/kdeglobals
+    # ~/.config/kcminputrc: kde/kcminputrc
+    # ~/.config/konsolerc: kde/konsolerc
+    # ~/.config/kcmshell5rc: kde/kcmshell5rc
 
     ~/.local/share/plasma:
-      path: kde/plasma-theming/*
+      path: local/share/plasma/*
       glob: true
 
     # Konsole
     ~/.local/share/konsole/:
-      path: kde/konsole/*
+      path: local/share/konsole/*
       glob: true
 
     # Wallpapers and other graphics
@@ -70,12 +76,12 @@
     ~/.ssh/config: ssh/config
 
     # Misc
-    ~/.config/qt5ct/:
-      path: qt5ct/*
-      glob: true
+    # ~/.config/qt5ct/:
+    #   path: qt5ct/*
+    #   glob: true
     ~/.profile: misc/profile
     ~/.xinitrc: misc/xinitrc
-    ~/.config/mimeapps.list: misc/mimeapps.list
+    # ~/.config/mimeapps.list: misc/mimeapps.list
 # - shell:
 #     - command: ./scripts/post.sh
 #       stderr: true

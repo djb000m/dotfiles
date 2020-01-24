@@ -1,24 +1,2 @@
-[Desktop Entry]
-DefaultProfile=Me.profile
-
-[DownloadDialog Settings]
-Height 1080=494
-Width 1920=700
-
-[Favorite Profiles]
-Favorites=
-
-[KonsoleWindow]
-RemoveWindowTitleBarAndFrame=true
-
 [MainWindow]
 Height 1080=509
-Height 1920=1048
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA7EAAAQEAAAABAAAAAQAAAAIAAAACPwAAAAA
-ToolBarsMovable=Disabled
-Width 1080=1080
-Width 1920=945
-
-[Notification Messages]
-CloseAllTabs=true
