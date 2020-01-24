@@ -1,0 +1,39 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+BrowseThroughArchives=true
+Version=200
+ViewPropsTimestamp=2019,11,12,12,27,59
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+Height 1080=514
+Width 1920=389
+
+[MainWindow]
+Height 1080=999
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAADwfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAADwQAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAC+AAAA8EAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=945
+
+[Open-with settings]
+CompletionMode=1
+History=okular,code
+
+[PreviewSettings]
+Plugins=windowsimagethumbnail,imagethumbnail,djvuthumbnail,jpegthumbnail,kraorathumbnail,ebookthumbnail,audiothumbnail,fontthumbnail,opendocumentthumbnail,svgthumbnail,comicbookthumbnail,windowsexethumbnail,directorythumbnail,appimagethumbnail,exrthumbnail
+
+[Search]
+Location=Everywhere
+What=Content
+
+[SettingsDialog]
+Height 1080=462
+Width 1920=549

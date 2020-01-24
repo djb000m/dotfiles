@@ -1,0 +1,29 @@
+[ConfigDialog]
+Height 1080=248
+Width 1920=269
+
+[DownloadDialog Settings]
+Height 1080=494
+Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=663026.jpg,file:$HOME/Pictures/rainbow-nebula.jpg,file:$HOME/Pictures/663026.jpg
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+iconViewIconSize=43
+
+[KPropertiesDialog]
+Height 1080=448
+Width 1920=408
+
+[MainWindow]
+Height 1080=1048
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1920
+Window-Maximized 1920x1080=true
+
+[Open-with settings]
+CompletionMode=1
+History=konsole
